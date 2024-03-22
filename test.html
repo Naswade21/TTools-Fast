@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Comic Book Layout</title>         
+        <style>/* the grid */.grid-1 { display: grid; width: 100%; max-width: 770px; margin: 10% auto; grid-template-columns: 1fr; grid-template-rows: auto 200px 200px auto 200px 200px 200px auto 200px 200px auto; grid-gap: 25px; } /* panels */.panel { color: white; background-repeat: no-repeat; background-position: center center; background-size: cover; box-shadow: 0 0px 0px 5px #251b19; } /* individual panels */.panel-title { box-shadow: none; } .panel-1 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-002.svg); box-shadow: none; } .panel-2 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-001.svg); } .panel-3 { box-shadow: none; } .panel-4 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-003.svg); } .panel-5 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-004.svg); } .panel-6 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-005.svg); } .panel-7 { box-shadow: none; } .panel-8 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-007.svg); } .panel-9 { background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cat-008.svg); box-shadow: none; } .panel-copyright { box-shadow: none; font-size: .75em; }</style>         
+    </head>     
+    <body> 
+        <div class="support-grid"></div>         
+        <section class="grid-1"> 
+            <div class="panel panel-title"> 
+                <h2>Barrys Cushion</h2> 
+                <p>A tale of lethargy and soft furnishings</p> 
+            </div>             
+            <div class="panel panel-1"></div>             
+            <div class="panel panel-2"></div>             
+            <div class="panel panel-3"> 
+                <p>“I should probably get upthings to do.”</p> 
+            </div>             
+            <div class="panel panel-4"></div>             
+            <div class="panel panel-5"></div>             
+            <div class="panel panel-6"></div>             
+            <div class="panel panel-7"> 
+                <p>“Naaah.”</p> 
+            </div>             
+            <div class="panel panel-8"></div>             
+            <div class="panel panel-9"></div>             
+            <div class="panel panel-copyright"> 
+                <p>Sleepy Fat Cat by messenj4h<br>&copy; Copyright happily ever after <a href="https://webdesign.tutsplus.com/tutorials/css-grid-layout-and-comics-as-explained-by-barry-the-cat--cms-27617">Envato Tuts+</a>  
+            </div>             
+        </section>         
+    </body>     
+</html>

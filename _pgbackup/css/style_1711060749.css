@@ -1,0 +1,35 @@
+.background {
+    background-color: #fff2e1;
+}
+
+.tonsorial-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.link-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.logo-holder {
+    flex-grow: 1;
+}
+
+.link-container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.navlink-spacer {
+    flex-grow: 1;
+}

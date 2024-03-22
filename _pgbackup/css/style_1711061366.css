@@ -1,0 +1,70 @@
+.background {
+    background-color: #fff2e1;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.tonsorial-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.link-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.logo-holder {
+    flex-grow: 1;
+}
+
+.link-container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.navlink-spacer {
+    flex-grow: 1;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.book-now {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #64ACCC;
+    font-weight: 400;
+    border: 0.3rem solid #64accc;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.book-now:hover {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #ffff;
+    font-weight: 400;
+    border: 0.3rem solid #64accc;
+    background-color: #64ACCC;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transform: translate(1, -2);
+    transition: all 4ms ease-in 1ms;
+}
