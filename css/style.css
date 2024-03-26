@@ -114,16 +114,94 @@ a {
 }
 
 .photo-container {
-    display: flex;
-    overflow: hidden;
     margin-top: 1rem;
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
 }
+
+.proof-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 3s linear infinite;
+}
+
+@keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+
+
+/* Code for Infinite auto scroll
+
+.scroll-parent {
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+    overflow-x: hidden;
+  }
+
+  .scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 3s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+.primary {
+  animation: primary 3s linear infinite;
+}
+
+.secondary {
+  animation: secondary 3s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+  */
 
 img {
     margin-right: 1rem;
 }
 
 .left {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
 }
 
 .hero-header {
@@ -153,7 +231,9 @@ img {
     padding-right: 1rem;
 }
 
-.5-para {
+.proof{
+    display: flex;
+    flex-direction: column;
 }
 
 .five-para {
